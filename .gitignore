@@ -1,0 +1,120 @@
+# PyBuildingBlocks specific files
+setup_project_structure.py
+project_structure.md
+plan
+examples
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# IDE - PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+.history/
+
+# Testing
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+cover/
+.tox/
+.nox/
+.coverage.*
+nosetests.xml
+*.py,cover
+pytestdebug.log
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Project specific
+temp/
+output/
+local_settings.py
+
+# Documentation
+docs/_build/
+site/
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
+
+# Security
+*.pem
+*.key
+*.cert
+*.crt
+
+# Local development
+local_settings.py
+settings_local.py
+settings/local.py
+
+# Media and static files
+media/
+static/
+uploads/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
